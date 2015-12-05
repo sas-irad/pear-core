@@ -6,8 +6,6 @@ php:
   - 5.5
   - 5.4
 install:
-  - which pear && pear upgrade console_getopt archive_tar
-  - which pear && pear install text_diff
   - sh scripts/pear.sh config-set umask 0022
   - sh scripts/pear.sh config-set umask 0022 system
 script:
