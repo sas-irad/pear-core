@@ -1,0 +1,15 @@
+{
+    "name": "sas-irad/pear-core",
+    "description": "Copy of pear-core for legacy apps using PEAR",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "J. Reuben Wetherbee",
+            "email": "wetherbe@sas.upenn.edu"
+        }
+    ],
+    "autoload": {
+        "classmap": ["", "PEAR/"]
+    },
+    "require": {}
+}
